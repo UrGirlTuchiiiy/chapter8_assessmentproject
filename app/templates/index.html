@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row text-center">
+        <h1 class="text-center">Shop</h1>
+        <div class="col-md-6">
+        
+            <img src="{{ url_for('static', filename='images/pro.jfif') }}" alt="">
+            <p>
+                KES 30,000 <br> WatchPro Series 8
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='images/orp.jfif') }}" alt="">
+            <p>
+                KES 250,000 <br> MacBook Pro
+            </p>
+        </div>
+    </div>
+{% endblock %}
